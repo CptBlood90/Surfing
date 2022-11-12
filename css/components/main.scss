@@ -1,0 +1,46 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+$z-fixed-menu: 100;
+
+@import url(./normalize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700;800&display=swap');
+
+@import "layout";
+
+@import "hero";
+
+@import "header";
+
+@import "features";
+
+@import "feature";
+
+@import "btn";
+
+@import "section";
+
+@import "headline";
+
+@import "benefits";
+
+@import "benefit";
+
+@import "reviews";
+
+@import "interactive-avatar";
+
+@import "order-section";
+
+@import "form";
+
+@import "radio";
+
+@import "fixed-menu";
+
+@import "map-section";
+
+
+
+
