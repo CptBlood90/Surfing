@@ -1,11 +1,14 @@
 .btn {
   font-size: 16px;
   font-weight: bold;
-  padding: 17px 41px;
+  padding: 21px 41px;
   text-transform: uppercase;
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
 }
 .btn--theme--yellow {
   background: #FEDB3F;
@@ -13,4 +16,13 @@
 }
 .btn--theme--yellow:hover {
   background: #FFD517;
+}
+.btn--theme--transparent {
+  background: transparent;
+  color: #fff;
+  text-transform: none;
+}
+.btn--theme--transparent:hover {
+  background: transparent;
+  color: #FEDB3F;
 }

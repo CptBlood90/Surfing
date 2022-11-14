@@ -1,8 +1,6 @@
 .hero {
-  background: url(../../img/background/headerback.png) center/100% no-repeat;
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  height: 110vh;
+  background: url(../../img/background/bg.png) center/100% no-repeat;
+  height: 100vh;
   min-height: 652px;
   color: #fff;
 }
@@ -36,5 +34,5 @@
 
 .hero__title-desc {
   font-size: 21px;
-  margin-bottom: 39px;
+  margin-bottom: 36px;
 }

@@ -76,7 +76,7 @@ img {
 
 .hero {
   background: url(../../img/background/bg.png) center/100% no-repeat;
-  height: 110vh;
+  height: 100vh;
   min-height: 652px;
   color: #fff;
 }
@@ -169,7 +169,7 @@ img {
 }
 
 .features__item {
-  margin-right: 33px;
+  margin-right: 26px;
 }
 .features__item:last-child {
   margin-right: 0;
@@ -182,24 +182,26 @@ img {
 }
 
 .feature__icon {
-  margin-right: 14px;
+  margin-right: 12px;
 }
 
 .feature__text {
   font-size: 16px;
   max-width: 90px;
+  line-height: 1.1;
 }
 
 .btn {
   font-size: 16px;
   font-weight: bold;
-  padding: 17px 41px;
+  padding: 21px 41px;
   text-transform: uppercase;
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
   display: inline-block;
   border: none;
+  cursor: pointer;
 }
 .btn--theme--yellow {
   background: #FEDB3F;
@@ -325,6 +327,7 @@ img {
 .benefit__title {
   color: #292929;
   font-weight: bold;
+  font-size: 27px;
 }
 
 .reviews__display {
@@ -415,7 +418,7 @@ img {
 
 .order-section {
   background: url(../../img/background/jeremy-bishop-cmt3JdS5MC4-unsplash.png) center/100% no-repeat;
-  height: 110vh;
+  height: 100vh;
   min-height: 652px;
 }
 
@@ -557,6 +560,6 @@ img {
 
 .map-section {
   background: url(../../img/background/map.svg) center/100% no-repeat;
-  height: 110vh;
+  height: 100vh;
   min-height: 652px;
 }
