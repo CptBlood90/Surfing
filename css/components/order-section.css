@@ -1,5 +1,9 @@
 .order-section {
   background: url(../../img/background/jeremy-bishop-cmt3JdS5MC4-unsplash.png) center/100% no-repeat;
-  height: 110vh;
+  height: 100vh;
   min-height: 652px;
+}
+
+.section-container {
+  height: 100%;
 }
