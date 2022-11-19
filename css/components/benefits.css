@@ -14,7 +14,7 @@
 .benefits__item:before {
   content: url(../../img/logo/separator.jpg);
   position: absolute;
-  top: 30px;
+  top: rem(30px);
   right: 0;
   -webkit-transform: translateX(50%);
           transform: translateX(50%);

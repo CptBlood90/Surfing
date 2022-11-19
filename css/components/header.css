@@ -20,14 +20,14 @@
 }
 
 .menu__item {
-  margin-right: 27px;
+  margin-right: rem(27px);
 }
 .menu__item:last-child {
   margin-right: 0;
 }
 
 .phone-number {
-  font-size: 22px;
+  font-size: rem(22px);
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,9 +38,9 @@
 }
 
 .phone-number__icon--elem {
-  width: 12px;
-  height: 13px;
-  margin-right: 6px;
+  width: rem(12px);
+  height: rem(13px);
+  margin-right: rem(6px);
 }
 
 .menu__link {

@@ -1,7 +1,7 @@
 .hero {
   background: url(../../img/background/bg.png) center/100% no-repeat;
   height: 100vh;
-  min-height: 652px;
+  min-height: rem(652px);
   color: #fff;
 }
 
@@ -21,18 +21,18 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  padding: 28px 0 65px;
+  padding: rem(28px) 0 rem(65px);
 }
 
 .hero__main-title {
-  font-size: 48px;
+  font-size: rem(48px);
   line-height: 1.2;
   font-weight: bold;
-  margin-bottom: 17px;
+  margin-bottom: rem(17px);
   text-transform: uppercase;
 }
 
 .hero__title-desc {
-  font-size: 21px;
-  margin-bottom: 36px;
+  font-size: rem(21px);
+  margin-bottom: rem(36px);
 }
