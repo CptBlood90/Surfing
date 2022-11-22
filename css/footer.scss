@@ -1,0 +1,21 @@
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+
+.footer__contacts{
+    font-size: rem(21px);
+    color: #292929;
+}
+
+.footer__social{
+    display: flex;
+    justify-content:flex-end;    
+}
+
+.social__icon{
+    width: 24px;
+    height: 24px;
+}

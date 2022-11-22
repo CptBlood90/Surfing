@@ -10,7 +10,7 @@ html {
 }
 @media screen and (max-width: 480px) {
   html {
-    font-size: 16px;
+    font-size: 11px;
   }
 }
 
@@ -799,4 +799,35 @@ img {
   height: 100vh;
   min-height: 36.22222rem;
   background-size: cover;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__contacts {
+  font-size: 1.1666666667rem;
+  color: #292929;
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.social__icon {
+  width: 24px;
+  height: 24px;
 }
