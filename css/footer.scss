@@ -1,21 +1,64 @@
+
 .footer__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @include phones{
+        flex-direction: column;  
+        justify-content: center;
+    }
  }
 
 
 .footer__contacts{
-    font-size: rem(21px);
+    font-size: 21px;
     color: #292929;
+    margin-top: rem(38px);
 }
 
-.footer__social{
-    display: flex;
-    justify-content:flex-end;    
+.footer__phone-number{
+    font-size: 21px;
+    color: #292929;
+    
+    @include phones {
+        justify-content: center;
+        margin-bottom: rem(12px);
+    }
 }
+
+.phone-number__icon--footer{
+    flex-shrink: 0;
+    width: 15px;
+    height: 15px;
+    margin-right: 0.33333rem;
+}
+
 
 .social__icon{
-    width: 24px;
-    height: 24px;
+    width: rem(23px);
+    height: rem(23px);
+    margin-right: 1rem;
+
+    @include phones{
+        width: rem(37px);
+        height: rem(37px);
+    }
+}
+.social__list{
+    display: flex;    
+}
+
+.social__icon-vk{
+    width: rem(23px);
+    height: rem(23px);
+    margin-top: rem(4px);
+    margin-right: 1rem;
+
+    @include phones{
+        width: rem(37px);
+        height: rem(37px);
+        margin-top: rem(4px);
+        margin-right: 1rem;
+    }
 }
