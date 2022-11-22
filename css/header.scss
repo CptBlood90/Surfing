@@ -45,17 +45,15 @@
 
 }
 
-.phone-number__icon--elem{
-    width: 0.66666rem;
-    height: 0.72222rem;
-    margin-right: 0.33333rem;
-}
 
 .phone-number__text{
     white-space: nowrap;
 }
 .phone-number__icon{
     flex-shrink: 0;
+    width: 0.66666rem;
+    height: 0.72222rem;
+    margin-right: 0.33333rem;
 }
 
 .menu__link{

@@ -92,11 +92,13 @@ img {
   height: 100vh;
   min-height: 36.22222rem;
   color: #fff;
+  background-size: cover;
 }
 @media screen and (max-width: 768px) {
   .hero {
-    background-color: #1968B1;
     background: url(../../img/background/bgtabl.svg);
+    background-position: 100% 5rem;
+    background-color: #1968B1;
   }
 }
 
@@ -221,12 +223,6 @@ img {
           align-items: center;
 }
 
-.phone-number__icon--elem {
-  width: 0.66666rem;
-  height: 0.72222rem;
-  margin-right: 0.33333rem;
-}
-
 .phone-number__text {
   white-space: nowrap;
 }
@@ -234,6 +230,9 @@ img {
 .phone-number__icon {
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  width: 0.66666rem;
+  height: 0.72222rem;
+  margin-right: 0.33333rem;
 }
 
 .menu__link {
@@ -245,6 +244,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: -4.9rem;
 }
 
 .features__item {
@@ -261,7 +261,7 @@ img {
 }
 
 .feature__icon {
-  margin-right: 0.66666rem;
+  margin-right: -13.33334rem;
 }
 
 .feature__text {
@@ -566,6 +566,7 @@ img {
   background: url(../../img/background/jeremy-bishop-cmt3JdS5MC4-unsplash.png) center/100% no-repeat;
   height: 100vh;
   min-height: 36.22222rem;
+  background-size: cover;
 }
 
 .order-section--container {
@@ -791,4 +792,11 @@ img {
   background: #fff;
   height: 4px;
   border-radius: 10px;
+}
+
+.map-section {
+  background: url(../../img/background/map.svg);
+  height: 100vh;
+  min-height: 36.22222rem;
+  background-size: cover;
 }

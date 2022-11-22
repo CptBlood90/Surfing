@@ -3,10 +3,12 @@
     height: 100vh;
     min-height: 36.22222rem;
     color: #fff;
+    background-size: cover;
     @include tablets {
-        background-color: #1968B1;        
+               
         background: url(../../img/background/bgtabl.svg);
-        
+        background-position: 100% 5rem;
+        background-color: #1968B1; 
 
         
     }
