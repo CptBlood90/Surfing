@@ -1238,8 +1238,7 @@ img {
           box-shadow: none;
 }
 
-.product-slider__arrows {
-  background: url("../../img/products/arrow.svg") center center no-repeat;
+.products-slider__arrows {
   color: black;
   background-size: contain;
   display: block;
@@ -1251,10 +1250,15 @@ img {
           transform: translateY(-50%);
   z-index: 10;
 }
-.product-slider__arrows--direction--next {
+
+.products-slider__arrows--direction--next {
+  background: url("../../img/products/arrow.svg") center center no-repeat;
   right: 0;
+  margin-top: 0.6666666667rem;
 }
-.product-slider__arrows--direction--prev {
+
+.products-slider__arrows--direction--prev {
+  background: url("../../img/products/arrow.svg") center center no-repeat;
   left: 0;
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
