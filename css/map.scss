@@ -1,6 +1,15 @@
-.map-section{
-    background: url(../../img/background/map.svg);
+.map-section {
+    position: relative;
     height: 100vh;
     min-height: 36.22222rem;
     background-size: cover;
+}
+
+
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
